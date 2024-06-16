@@ -1,0 +1,19 @@
+Peserta 1 :
+Nama : Peserta
+email : peserta@gmail.com
+no. telp : 089595959595
+password : peserta123
+
+Peserta 2 :
+Nama : User
+email : user@gmail.com
+no. telp : 089999999999
+password : user123
+
+Admin :
+username : adm123
+password : adm321
+
+Session:
+jika session tidak bekerja/jalan, ketikkan ulang secara manual syntax session di dalam kode editor kita
+gabisa di copy paste

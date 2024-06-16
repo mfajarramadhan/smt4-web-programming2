@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap");
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+div.container {
+  width: 100%;
+}
+
+div.sub_container {
+  width: 89%;
+  margin-left: 17%;
+  font-size: 95%;
+}
+
+div.header {
+  width: 100%;
+  margin: 0 0 20px 0;
+  text-align: center;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+}
+
+div.position{
+  /* z-index: -1; */
+  position: fixed;
+  width: 720px;
+  top: 0;
+  right: 0;
+  left: 300;
+}
+
+div.box {
+  /* max-width: 98%; */
+  margin: 5px auto;
+  border-radius: 5px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+}
+
+div.content {
+  padding: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+div.menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+div.search {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+div.search input {
+  width: 50%;
+  height: 25px;
+  border-radius: 8px;
+  padding: 4px 10px;
+  border: 1px solid black;
+}
+
+div.t_body {
+  overflow: auto;
+  border-radius: 5px;
+  /* border-radius: 0.4rem; */
+}
+
+table {
+  width: 100%;
+}
+
+table tr th {
+  /* background-color: #15406A; */
+  background-color: #4175df;
+  color: white;
+  text-align: center;
+}
+
+table tr th:nth-child(2){
+  text-align: left;
+  text-indent: 8px;
+}
+table tr td:nth-child(2){
+  text-align: left;
+}
+
+table tr td {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+table tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+table tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+table tr:hover {
+  background-color: whitesmoke;
+}
+
+
+
+td.action-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+button#cari,
+button#tambah,
+button#ubah,
+button#hapus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0;
+  width: 60px;
+  border: 0px solid black;
+  height: 25px;
+  font-size: 80%;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.2s;
+  /* padding-bottom: 25px; */
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+button#cari,
+button#tambah,
+button#ubah {
+  /* background-color: rgba(2, 4, 117, 0.76); */
+  background-color: #4175df;
+  color: white;
+}
+
+button#cari:hover,
+button#tambah:hover,
+button#ubah:hover:hover {
+  /* background-color: rgba(2, 4, 117, 0.76); */
+  background-color: rgb(0, 162, 255);
+}
+
+button#hapus {
+  background-color: red;
+}
+
+button#hapus:hover {
+  background-color: black;
+}
+
+/* Responsive */
+
+/*  Tampilan Mobile */
+@media screen and (max-width: 810px) {
+ div.modal-box{
+  width:100%;
+  height: 18vh;
+ }
+
+  div.sub_container {
+    width: 100%;
+    margin-left: 0%;
+  }
+
+
+}
+
+@media screen and (max-width: 650px) {
+  button#cari {
+    display: none;
+  }
+
+  div.search {
+    display: flex;
+    align-items: center;
+  }
+}

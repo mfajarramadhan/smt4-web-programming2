@@ -1,0 +1,5 @@
+1. set = setter(untuk meng-setting nilai)
+2. get = getter (untuk mengambil nilai)
+3. abstract class = method nya dapat digunakan oleh turunannya (lebih dari 1x pakai)
+4. pow($sisi, 2) = sisi dipangkat 2
+5. Dependency Injection = bisa memasukkan objek (injeksi) kedalam objek lain, yang bukan instansinya
